@@ -2,7 +2,7 @@
   padding: 100px 0;
 }
 
-/*====== footer left  =========*/
+/*======== footer left  =========*/
 .footer-logo {
   font-family: Integral CF;
   font-style: normal;
@@ -87,7 +87,7 @@
   transition: all 0.4s;
 }
 
-/* responsive query  */
+/* ========== responsive query ==========  */
 @media only screen and (max-width: 1400px) {
   .subscribe-field {
     padding: 5px;

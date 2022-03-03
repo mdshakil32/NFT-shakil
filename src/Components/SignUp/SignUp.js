@@ -10,17 +10,23 @@ const SignUp = () => {
             <div className="container">
                 <div className="signup-wrapper">
                     <div className="row">
+
+                        {/* ========== left image =========  */}
                         <div className="col-md-4 col-sm-7 col-6">
                             <div className="signup-left">
                                 <img className='signup-left-top-img ' src={image1} alt="" />
                                 <img className='signup-left-bottom-img  ' src={image2} alt="" />
                             </div>
                         </div>
+
+                        {/* =========== middle image ========  */}
                         <div className="col-md-3 col-sm-5 col-6">
                             <div className="signup-middle ">
                                 <img  src={image3} alt="" />
                             </div>
                         </div>
+
+                        {/* =========== signup content ==========  */}
                         <div className="col-md-5">
                             <div className="signup-right">
                             <h1 className='signup-heading'>Create and <br /> sell your NFTs</h1>

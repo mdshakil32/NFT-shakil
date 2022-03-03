@@ -11,11 +11,13 @@ import ethGreen from "./images/eth-green.png";
 const BidUser = ({bidImg}) => {
     return (
         <div className=" single-bid-user ">
-           
+
+                {/*  ========= left image =======   */}
                 <div className="bid-user-left">
                     <img src={bidImg} alt="" />
                 </div>
-            
+
+                {/* ========= user detail ======  */}
                 <div className="bid-user-right">
                     <h3 className="user-title-1">
                         The Futr Abstr

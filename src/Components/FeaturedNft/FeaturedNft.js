@@ -21,21 +21,21 @@ const FeaturedNft = () => {
                 <div className="row">
                     <h1 className='featured-heading'>Collection Featured NFTs</h1>
 
-                    {/* ---- single feature  ---- */}
+                    {/* ========== single feature  ========= */}
                    <SingleFeature
                         mainImg={bigImage1}
                         smallImage1={smImage1}
                         smallImage2={smImage5}
                         smallImage3={smImage2}
                    ></SingleFeature>
-                    {/* ---- single feature  ---- */}
+                    {/* ========= single feature  ========= */}
                    <SingleFeature
                         mainImg={bigImage2}
                         smallImage1={smImage5}
                         smallImage2={smImage1}
                         smallImage3={smImage3}
                    ></SingleFeature>
-                    {/* ---- single feature  ---- */}
+                    {/* ========== single feature  ========== */}
                    <SingleFeature
                         mainImg={bigImage3}
                         smallImage1={smImage6}

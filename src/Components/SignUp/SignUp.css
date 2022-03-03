@@ -91,6 +91,8 @@
   border: 2px solid #3d00b7;
 }
 
+/* ======== responsive query =======  */
+
 @media only screen and (max-width: 575px) {
   .signup {
     padding: 70px 0;

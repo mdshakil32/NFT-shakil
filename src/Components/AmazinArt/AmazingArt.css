@@ -7,7 +7,6 @@
 }
 .amazing-art-heading {
   max-width: 398px;
-  /* margin: 14px 0; */
 }
 .amazing-art-heading h1 {
   font-family: Integral CF;
@@ -18,7 +17,6 @@
   display: flex;
   gap: 0 15px;
   max-width: 300px;
-  /* margin: 14px 0; */
 }
 .amazing-art-single h2 {
   font-weight: bold;

@@ -128,6 +128,7 @@ console.log(cards);
                                          {/* ======= card main image ======== */}
                                         <img className='w-100' src={card.image} alt="" />
 
+                                        {/*========= card content =======  */}
                                         <div className="card-content">
                                             <div className="card-user-images ">
                                                 <img src={user2} alt="" />
@@ -145,6 +146,8 @@ console.log(cards);
                                                 </div>
                                                 <p className="card-number">1 of 321</p>
                                             </div>
+
+                                            {/*========= card footer =========  */}
                                             <div className="card-footer">
                                                 <p className="card-footer-time">3h 50m 2s left</p>
                                                 <button className="card-footer-btn">Place a bid</button>

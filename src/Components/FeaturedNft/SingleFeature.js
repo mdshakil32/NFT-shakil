@@ -16,15 +16,20 @@ const SingleFeature = ({mainImg,smallImage1,smallImage2,smallImage3}) => {
         <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-feature">
                             <div className="fitured-images ">
+
+                                {/* ========= main image ====== */}
                                 <div className="fitured-left-img">
                                     <img src={mainImg} alt="" />
                                 </div>
+
+                                {/*========== sub images =======  */}
                                 <div className="fitured-right-imgs">
                                     <img src={smallImage1} alt="" />
                                     <img src={smallImage2} alt="" />
                                     <img src={smallImage3} alt="" />
                                 </div>
                             </div>
+                            {/* ========== title and user ==========  */}
                             <div className="fitured-user">
                                 <h1 className='userTitle'>Amazing Collection</h1>
                                 <div className='flex-1'>

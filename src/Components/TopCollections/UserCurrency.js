@@ -13,7 +13,10 @@ const UserCurrency = ({serial,title,percent,amount,img,percentColor}) => {
     return (
          <div className="single-user-currency ">
 
+             {/* ========= serial =======  */}
             <p className='curency-no'>{serial}</p>
+
+            {/* ========== profile =======  */}
             <img className='user-currency-img' src={img} alt="" />
             <div >
                 <p className='currency-name'>{title}</p>

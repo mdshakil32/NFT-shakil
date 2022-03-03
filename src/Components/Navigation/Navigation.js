@@ -9,13 +9,18 @@ const Navigation = () => {
       <div className="container">
        <Navbar bg="light" expand="lg">
         <Container fluid className="p-0">
+
+          {/* =========== nav brand logo =========  */}
           <Navbar.Brand href="#" className='nav-brand'>NFTERS</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
+
+            {/* ========== nav links =======  */}
             <Nav
               className="me-auto left-nav-wraper"
               navbarScroll
             >
+              
               <Nav.Link href="#action1" className='cus-nav-link'>Marketplace</Nav.Link>
               <Nav.Link href="#action2" className='cus-nav-link'>Resource</Nav.Link>
               <Nav.Link href="#action2" className='cus-nav-link'>About</Nav.Link>
@@ -26,6 +31,7 @@ const Navigation = () => {
               className="ms-auto gap-20"
               navbarScroll
             >
+              {/* ======= nav search =========  */}
               <Form className=" nav-search-seaction " pill>
                 <div class="input-box"> 
                   <input 
@@ -35,6 +41,7 @@ const Navigation = () => {
                   <img src={searchIcon} /> </div>
               </Form>
 
+              {/* ======== nav buttons =========  */}
               <button className=' upload-btn'>Upload</button>
               <button className=' wallet-btn'>Connect Wallet</button>
             </Nav>

@@ -21,7 +21,6 @@
 /* ======== featured images ========== */
 .fitured-images {
   display: flex;
-  /* justify-content: space-between; */
   gap: 8px;
 }
 .fitured-left-img {
@@ -84,6 +83,8 @@
   background-color: #2639ed;
   color: white;
 }
+
+/* ========== responsive query =========  */
 
 @media only screen and (max-width: 575px) {
   .featured-heading {

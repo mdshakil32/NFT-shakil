@@ -42,7 +42,7 @@
   letter-spacing: 0.065em;
   background-color: #ffffff;
 }
-/* banner counts  */
+/*==========  banner counts ========  */
 .banner-counts {
   margin-top: 30px;
   display: flex;
@@ -64,10 +64,9 @@
   line-height: 160%;
 }
 
-/* banner img  */
+/*==========  banner img ========== */
 .banner-img {
   max-width: 536px;
-  /* max-height: 440px; */
 }
 .banner-img img {
   width: 100%;

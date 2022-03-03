@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="container">
             <div className="row">
 
-                {/* banner content  */}
+                {/* ======= banner content ========  */}
                 <div className="col-md-6">
                     <div className="banner-content">
                         <h1 className="banner-heading">
@@ -19,7 +19,7 @@ const Banner = () => {
                         </p>
                         <button className='explore-btn'>Explore Now</button>
 
-                        {/* banner counts  */}
+                        {/* ========== banner counts ==========  */}
                          <div className="banner-counts">
                             <div className="banner-count">
                                 <h1 className='count-num'>98k+</h1>
@@ -37,7 +37,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                {/* banner img  */}
+                {/* ============ banner img ==========  */}
                 <div className="col-md-6">
                        <div className="banner-img">
                            <img src={bannerImg} alt="" />

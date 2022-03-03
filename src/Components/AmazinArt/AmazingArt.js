@@ -9,11 +9,15 @@ const AmazingArt = () => {
             <div className="container">
                 <div className="amazing-art-wrapper">
                     <div className="row">
+
+                        {/* ========== left =========  */}
                         <div className="col-md-4 col-sm-12">
                             <div className="amazing-art-heading mb__50">
                                 <h1>The amazing NFT art  of the world here</h1>
                             </div>
                         </div>
+
+                        {/*========== middle =========  */}
                         <div className="col-md-4 col-sm-6">
                             <div className="amazing-art-single  ">
                                 <img src={cardTick} alt="" />
@@ -23,6 +27,8 @@ const AmazingArt = () => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* ======== right ==========  */}
                         <div className="col-md-4 col-sm-6">
                             <div className="amazing-art-single  ">
                                 <img src={chartSquare} alt="" />
